@@ -19,6 +19,12 @@ Using ReactJS &amp; Tailwind
 - Add the paths to all of your template files in your tailwind.config.js file.
 
        content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}",],
+- Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
+  
+       @tailwind base;
+       @tailwind components;
+       @tailwind utilities;
+-
 -
 -
 
