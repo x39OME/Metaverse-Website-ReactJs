@@ -13,7 +13,12 @@ Using ReactJS &amp; Tailwind
 ## Packages
 
 - npm create vite@latest metaverse -- --template react
-- npm install
+- npm install & npm run dev
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+- Add the paths to all of your template files in your tailwind.config.js file.
+
+       content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}",],
 -
 -
 
