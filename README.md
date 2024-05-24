@@ -4,7 +4,7 @@ Using ReactJS &amp; Tailwind
 
 ## What did we use in the project?
 ### 1- [React Js](https://react.dev/learn/installation)
-### 2-
+### 2- [TailwindCSS Vite](https://tailwindcss.com/docs/guides/vite)
 ### 3-
 ### 4-
 ### 5-
@@ -12,8 +12,8 @@ Using ReactJS &amp; Tailwind
 
 ## Packages
 
--
--
+- npm create vite@latest metaverse -- --template react
+- npm install
 -
 -
 
