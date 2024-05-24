@@ -24,7 +24,7 @@ Using ReactJS &amp; Tailwind
        @tailwind base;
        @tailwind components;
        @tailwind utilities;
--
+- npm run dev
 -
 -
 
