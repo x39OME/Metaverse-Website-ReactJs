@@ -5,7 +5,7 @@ Using ReactJS &amp; Tailwind
 ## What did we use in the project?
 ### 1- [React Js](https://react.dev/learn/installation)
 ### 2- [TailwindCSS Vite](https://tailwindcss.com/docs/guides/vite)
-### 3-
+### 3- [React Icons](https://www.npmjs.com/package/react-icons)
 ### 4-
 ### 5-
 
@@ -25,7 +25,7 @@ Using ReactJS &amp; Tailwind
        @tailwind components;
        @tailwind utilities;
 - npm run dev
--
+- npm install react-icons --save
 -
 
 
