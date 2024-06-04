@@ -7,7 +7,7 @@ Using ReactJS &amp; Tailwind
 ### 2- [TailwindCSS Vite](https://tailwindcss.com/docs/guides/vite)
 ### 3- [React Icons](https://www.npmjs.com/package/react-icons)
 ### 4- [AOS](https://www.npmjs.com/package/aos)
-### 5-
+### 5- [Netlify](https://www.netlify.com/)
 
 
 ## Packages
@@ -27,6 +27,7 @@ Using ReactJS &amp; Tailwind
 - npm run dev
 - npm install react-icons --save
 - npm install aos --save
+- npm run build
 
 
 # Getting Started with Create React App
