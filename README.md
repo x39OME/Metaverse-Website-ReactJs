@@ -10,8 +10,8 @@ Using ReactJS &amp; Tailwind
 ### 5- [Netlify](https://www.netlify.com/)
 
 
-## Packages
-
+## Packages Install
+- go [TailwindCSS Vite](https://tailwindcss.com/docs/guides/vite) & copy
 - npm create vite@latest metaverse -- --template react
 - cd my-project
 - npm install
@@ -26,11 +26,19 @@ Using ReactJS &amp; Tailwind
        @tailwind base;
        @tailwind components;
        @tailwind utilities;
+
 - npm run dev
 - npm install react-icons --save
 - npm install aos --save
-- npm run build
 
+### Deploying the app
+
+- npm run build
+- open dist file
+- open [Netlify](https://www.netlify.com/)
+- add new site Deploy manually
+- drag & drop dist file
+- change site name
 
 # Getting Started with Create React App
 
