@@ -31,14 +31,17 @@ Using ReactJS &amp; Tailwind
 - npm install react-icons --save
 - npm install aos --save
 
-### Deploying the app
-
+## Deploying the app on (Netlify)
 - npm run build
-- open dist file
-- open [Netlify](https://www.netlify.com/)
+- open build or dist file
+- open Netlify
 - add new site Deploy manually
 - drag & drop dist file
 - change site name
+
+
+## Deploying the app on Github(gh-pages) 
+
 
 # Getting Started with Create React App
 
