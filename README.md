@@ -44,11 +44,9 @@ Using ReactJS &amp; Tailwind
 
 ## Deploying the app on Github(gh-pages)
 - npm run build
-- npm install gh-pages --save-dev
 - git init
 - git add .
 - git commit -m "initial commit"
-- git push origin master
 - git remote add origin https://github.com/YourUsername/YourRepoName.git
 - git branch -M main
 - git push -u origin main
