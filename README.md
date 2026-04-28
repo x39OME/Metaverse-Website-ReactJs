@@ -45,6 +45,16 @@ Using ReactJS &amp; Tailwind
 ## Deploying the app on Github(gh-pages)
 
 - npm install gh-pages --save-dev
+       ```
+- package.json add
+              
+              "homepage":"https://github.com/x39OME/Metaverse-Website-ReactJs",
+              "scripts": {
+                 "predeploy": "npm run build",
+                 "deploy": "gh-pages -d build",
+                 "start": "react-scripts start",
+                 "build": "react-scripts build",        
+
 - npm run build
 - git init
 - git add .
@@ -52,14 +62,6 @@ Using ReactJS &amp; Tailwind
 - git remote add origin https://github.com/YourUsername/YourRepoName.git
 - git branch -M main
 - git push -u origin main
-  ```
-          اذا حصل خطأ بسبب التعديلات الموجودة على ملف readme
-         يجب استخدام الامر
-         git pull origin main
-         ثم اعد الامر -
-         git push -u origin main
-         git pull origin main --allow-unrelated-histories
-
 - npm run deploy
 
 
