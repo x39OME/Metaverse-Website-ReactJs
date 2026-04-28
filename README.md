@@ -43,6 +43,8 @@ Using ReactJS &amp; Tailwind
 
 
 ## Deploying the app on Github(gh-pages)
+
+- npm install gh-pages --save-dev
 - npm run build
 - git init
 - git add .
@@ -58,7 +60,6 @@ Using ReactJS &amp; Tailwind
          git push -u origin main
          git pull origin main --allow-unrelated-histories
 
-- npm install gh-pages --save-dev
 - npm run deploy
 
 
