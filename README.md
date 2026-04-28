@@ -40,7 +40,23 @@ Using ReactJS &amp; Tailwind
 - change site name
 
 
-## Deploying the app on Github(gh-pages) 
+## Deploying the app on Github(gh-pages)
+- git init
+- git add .
+- git commit -m "initial commit"
+- git remote add origin https://github.com/YourUsername/YourRepoName.git
+- git branch -M main
+- git push -u origin main
+  ```
+          اذا حصل خطأ بسبب التعديلات الموجودة على ملف readme
+         يجب استخدام الامر
+         git pull origin main
+         ثم اعد الامر -
+         git push -u origin main
+         git pull origin main --allow-unrelated-histories
+
+- npm install gh-pages --save-dev
+- npm run deploy
 
 
 # Getting Started with Create React App
