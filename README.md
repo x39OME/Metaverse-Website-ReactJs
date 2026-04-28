@@ -41,6 +41,8 @@ Using ReactJS &amp; Tailwind
 
 
 ## Deploying the app on Github(gh-pages)
+- npm run build
+- npm install gh-pages --save-dev
 - git init
 - git add .
 - git commit -m "initial commit"
