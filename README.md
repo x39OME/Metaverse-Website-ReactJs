@@ -31,6 +31,8 @@ Using ReactJS &amp; Tailwind
 - npm install react-icons --save
 - npm install aos --save
 
+- npm audit fix !!
+
 ## Deploying the app on (Netlify)
 - npm run build
 - open build or dist file
