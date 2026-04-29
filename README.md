@@ -48,7 +48,7 @@ Using ReactJS &amp; Tailwind
        
 - package.json add
               
-              "homepage":"https://github.com/x39OME/Metaverse-Website-ReactJs",
+              "homepage":"https://x39ome.github.io/Metaverse-Website-ReactJs/",
               "scripts": {
                  "predeploy": "npm run build",
                  "deploy": "gh-pages -d build",
