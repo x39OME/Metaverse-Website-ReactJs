@@ -49,20 +49,19 @@ Using ReactJS &amp; Tailwind
 - npm install gh-pages --save-dev --force
        
 - package.json add
-              
+- from "deploy": "gh-pages -d build ", To "deploy": "gh-pages -d dist",
+  
               "homepage":"https://x39ome.github.io/Metaverse-Website-ReactJs/",
               "scripts": {
-                 "predeploy": "npm run build",
-                 "deploy": "gh-pages -d build",
-                 "start": "react-scripts start",
-                 "build": "react-scripts build",        
+                         "dev": "vite",
+                         "predeploy": "npm run build",
+                         "deploy": "gh-pages -d dist",
+                         "build": "vite build",
+                         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+                         "preview": "vite preview"      
 
 - git init
-- git add .
-- git commit -m "initial commit"
-- git remote add origin https://github.com/YourUsername/YourRepoName.git
-- git branch -M main
-- git push -u origin main
+- git remote add origin https://x39ome.github.io/Metaverse-Website-ReactJs/
 - npm run deploy
 
 
