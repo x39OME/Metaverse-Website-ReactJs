@@ -40,6 +40,7 @@ Using ReactJS &amp; Tailwind
 - add new site Deploy manually
 - drag & drop dist file
 - change site name
+- [Link](https://vr-world-metavers.netlify.app/)
 
 
 ## Deploying the app on Github(gh-pages)
@@ -62,7 +63,14 @@ Using ReactJS &amp; Tailwind
 
 - git init
 - git remote add origin https://x39ome.github.io/Metaverse-Website-ReactJs/
+- vite.config.js (add)
+  
+                     export default defineConfig({
+                       plugins: [react()],
+                       + base:'https://x39ome.github.io/Metaverse-Website-ReactJs/',
+                     })
 - npm run deploy
+- [Link](https://x39ome.github.io/Metaverse-Website-ReactJs/)
 
 
 # Getting Started with Create React App
