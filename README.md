@@ -45,7 +45,7 @@ Using ReactJS &amp; Tailwind
 ## Deploying the app on Github(gh-pages)
 
 - npm install gh-pages --save-dev
-       ```
+       
 - package.json add
               
               "homepage":"https://github.com/x39OME/Metaverse-Website-ReactJs",
